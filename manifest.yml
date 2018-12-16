@@ -1,0 +1,5 @@
+applications:
+- name: auth-service
+  memory: 1G
+  buildpack: java_buildpack
+  path: concourse-demo-0.0.1-SNAPSHOT.jar
