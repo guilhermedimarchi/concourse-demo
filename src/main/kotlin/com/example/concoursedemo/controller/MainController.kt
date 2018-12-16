@@ -11,8 +11,13 @@ class MainController {
     @GetMapping("/")
     @ResponseStatus(HttpStatus.OK)
     fun helloWorld () : String {
-        print("teste")
         return "Hello World!"
+    }
+
+    @GetMapping("/concourse")
+    @ResponseStatus(HttpStatus.OK)
+    fun helloConcourse () : String {
+        return "Hello Concourse!"
     }
 
 
